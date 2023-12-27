@@ -7,7 +7,7 @@ contract UniswapV3Swap{
     /// @notice Swap token with another token
     /// @dev Explain to a developer any extra details
     /// @param tokenIn token Address to Swap
-    /// @param path path contains address of tokens in bytes,swap token multiple times with a path addresses of token
+    /// @param tokenOut token's address to receive
     /// @param amountIn amount of token to swap
     /// @return amountOut retrns the amount of token received after swap
     function swapSingleHopExactAmountIn(
